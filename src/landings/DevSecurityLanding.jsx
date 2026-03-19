@@ -1,3 +1,5 @@
+import appMockup from '../assets/app.png'
+
 function DevSecurityLanding() {
   return (
     <>
@@ -25,16 +27,12 @@ function DevSecurityLanding() {
             </a>
             <button className="btn-ghost">Ver demo (placeholder)</button>
           </div>
-
-          <p className="hero-note">
-            Ideal para explicar desarrollo de la aplicación y ciberseguridad de datos en un proyecto.
-          </p>
         </div>
 
         <div className="hero-media">
           <div className="hero-card">
             <div className="hero-product-image">
-              Captura de la app (placeholder)
+              <img src={appMockup} alt="PetTalk" style={{ width: '100%', height: '100%', objectFit: 'contain', objectPosition: 'top' }}/>
             </div>
             <span className="hero-badge">Plan técnico</span>
             <h3>Arquitectura para PetTalk</h3>
@@ -110,14 +108,14 @@ function DevSecurityLanding() {
 
       <section className="cta">
         <div>
-          <h2>Guion para tu exposición</h2>
+          <h2>Descarga la version Demo de la app</h2>
           <p>
-            En Desarrollo + Ciberseguridad podés explicar módulos de la app y, además, cómo se protege el historial y la privacidad de los usuarios.
+            En Desarrollo + Ciberseguridad podés descargar la versión demo de la app y ver cómo se protege el historial y la privacidad de los usuarios.
           </p>
         </div>
         <div className="cta-actions">
-          <button className="btn-light">Descargar material (placeholder)</button>
-          <button className="btn-outline-light">Contactar equipo técnico (placeholder)</button>
+          <button className="btn-light">Descargar versión demo</button>
+          <button className="btn-outline-light">Contactar equipo técnico</button>
         </div>
       </section>
     </>

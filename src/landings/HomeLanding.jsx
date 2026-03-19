@@ -1,3 +1,5 @@
+import imgCollar from '../assets/dog-collar-gear.webp'
+
 function HomeLanding() {
   return (
     <>
@@ -29,7 +31,7 @@ function HomeLanding() {
         <div className="hero-media">
           <div className="hero-card">
             <div className="hero-product-image">
-              Imagen del collar PetTalk y mascotas (placeholder)
+            <img src={imgCollar} alt="PetTalk" style={{ width: '100%', height: '100%' }}/>
             </div>
             <span className="hero-badge">Kit educativo</span>
             <h3>Kit Demo PetTalk para Clases</h3>

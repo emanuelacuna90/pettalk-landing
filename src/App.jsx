@@ -4,6 +4,7 @@ import './App.css'
 import HomeLanding from './landings/HomeLanding'
 import MarketingLanding from './landings/MarketingLanding'
 import DevSecurityLanding from './landings/DevSecurityLanding'
+import logoPng from './assets/logo.png'
 
 function getRouteFromHash() {
   const hash = window.location.hash || '#/marketing'
@@ -32,7 +33,9 @@ export default function App() {
     <div className="page">
       <header className="header">
         <div className="logo">
-          <div className="logo-img">Logo</div>
+          <div className="logo-img">
+            <img src={logoPng} alt="PetTalk" style={{ width: '50px', height: '50px' }}/>
+          </div>
           <div>
             <div className="logo-title">PetTalk</div>
             <div className="logo-subtitle">Traduce ladridos y maullidos en tiempo real.</div>

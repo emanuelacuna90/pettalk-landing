@@ -1,4 +1,7 @@
+import imgCollar from '../assets/dog-collar-gear.webp'
+
 function MarketingLanding() {
+
   return (
     <>
       <section className="hero">
@@ -33,7 +36,7 @@ function MarketingLanding() {
 
         <div className="hero-media">
           <div className="hero-card">
-            <div className="hero-product-image">Imagen de campaña / producto (placeholder)</div>
+          <img src={imgCollar} alt="PetTalk" style={{ width: '100%', height: '100%' }}/>
             <span className="hero-badge">Demo educativo</span>
             <h3>Kit de marketing para clases</h3>
             <p className="hero-price">USD 99</p>
