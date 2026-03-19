@@ -395,8 +395,6 @@ a {
   justify-content: center;
   gap: 14px;
   box-shadow: 0 14px 40px rgba(0, 119, 200, 0.45);
-  animation: fadeIn 0.9s ease both;
-  animation-delay: 0.12s;
 }
 
 .cta h2 {

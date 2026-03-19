@@ -75,7 +75,11 @@ function HomeLanding() {
             Inteligencia Artificial
           </h2>
           <p className="section-copy">
-            El corazón de PetTalk es un sistema de IA entrenado con miles de sonidos y gestos de mascotas.
+            La IA es la base de Pet Talk, ya que permite traducir los sonidos de tu mascota en mensajes.
+            La función que cumple el collar es captar los ladridos; la IA los analiza usando algoritmos,
+            reconociendo qué es lo que quiere decir tu mascota. Para que esto sea posible, interviene
+            una base de datos donde se almacenan y clasifican distintos sonidos. Estos datos permiten
+            entrenar el aprendizaje automático, comparando nuevos sonidos con los que ya están guardados.
           </p>
           <ul className="section-list">
             <li>
@@ -97,20 +101,22 @@ function HomeLanding() {
             Comercio Internacional
           </h2>
           <p className="section-copy">
-            PetTalk está pensado para una expansión global responsable, cumpliendo con normativas y regulaciones de cada país.
+            PetTalk se prepara para exportar y escalar de forma planificada, cumpliendo requisitos y optimizando logística según cada etapa del crecimiento.
           </p>
           <ul className="section-list">
             <li>
-              <strong>Mercados objetivo:</strong> análisis de países con alto gasto en mascotas.
+              <strong>Clasificación NCM:</strong> el producto se encuadra bajo la NCM <strong>8517.62.00</strong> (dispositivos electrónicos de transmisión de datos).
             </li>
             <li>
-              <strong>Regulaciones y certificaciones:</strong> cumplimiento de normas para dispositivos electrónicos y productos para animales.
+              <strong>Trámite VUCE:</strong> gestionar la documentación y consultas mediante la <strong>VUCE</strong> (página oficial VUCE) para asegurar el cumplimiento en comercio exterior.
             </li>
             <li>
-              <strong>Estrategias de entrada:</strong> alianzas con distribuidores locales y campañas adaptadas a cada mercado.
+              <strong>Envío y modalidad:</strong> <br />
+              ✈️ <strong>Aéreo</strong> para productos tecnológicos (más rápido).<br />
+              🚢 <strong>Marítimo</strong> si se incrementa el volumen y conviene optimizar costos.
             </li>
             <li>
-              <strong>Logística:</strong> planificación de la exportación del producto de forma eficiente.
+              <strong>Estrategia de internacionalización:</strong> iniciar exportaciones hacia <strong>Brasil</strong> aprovechando los beneficios del <strong>Mercosur</strong>, y luego expandirse a mercados desarrollados como <strong>Estados Unidos</strong> y <strong>Japón</strong>, posicionando PetTalk como una innovación tecnológica en el vínculo humano-mascota.
             </li>
           </ul>
         </article>
