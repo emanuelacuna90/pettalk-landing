@@ -12,8 +12,18 @@ function MarketingLanding() {
             <span className="hero-highlight">perros y gatos</span>.
           </h1>
           <p className="hero-copy">
-            PetTalk convierte ladridos y maullidos en mensajes claros. La campaña apunta a mostrar
-            valor emocional y utilidad real para que la gente quiera probarlo (o comprarlo) por su experiencia.
+            ¿Y si tu mascota pudiera hablar?
+            <br />
+            <br />
+            ¿Cuántas veces te preguntaste qué necesita, qué siente o qué intenta decirte?
+            <br />
+            <br />
+            PetTalk nace a partir de esa pregunta. Porque sabemos que las mascotas se comunican constantemente,
+            pero muchas veces no logramos entenderlas.
+            <br />
+            <br />
+            Nuestra campaña se basa en mostrar situaciones reales donde las personas no comprenden a sus mascotas,
+            y cómo PetTalk transforma esos momentos en mensajes claros.
           </p>
 
           <div className="hero-bullets">
@@ -28,17 +38,12 @@ function MarketingLanding() {
               Ver Desarrollo + Ciberseguridad
             </a>
           </div>
-
-          <p className="hero-note">
-            Esta landing está pensada para explicar en clase: público objetivo, objetivos de campaña y canales.
-          </p>
         </div>
 
         <div className="hero-media">
           <div className="hero-card">
           <img src={imgCollar} alt="PetTalk" style={{ width: '100%', height: '100%' }}/>
-            <span className="hero-badge">Demo educativo</span>
-            <h3>Kit de marketing para clases</h3>
+            <h3>PetTalk</h3>
             <p className="hero-price">USD 99</p>
             <p className="hero-tagline">
               Material para presentar la idea: mensaje, público objetivo y plan de difusión.
@@ -123,19 +128,6 @@ function MarketingLanding() {
             </li>
           </ul>
         </article>
-      </section>
-
-      <section className="cta">
-        <div>
-          <h2>Listo para presentar en clase</h2>
-          <p>
-            En Marketing podés explicar público objetivo, objetivos de campaña y canales de difusión con ejemplos del flyer.
-          </p>
-        </div>
-        <div className="cta-actions">
-          <button className="btn-light">Descargar material (placeholder)</button>
-          <button className="btn-outline-light">Contactar ventas educativas (placeholder)</button>
-        </div>
       </section>
     </>
   )

@@ -23,6 +23,40 @@ export default function App() {
     return () => window.removeEventListener('hashchange', onHashChange)
   }, [])
 
+  useEffect(() => {
+    // Scroll reveal con IntersectionObserver (equivalente a "reveal al entrar en viewport")
+    const container = document.querySelector('.page')
+    if (!container) return
+
+    const upEls = Array.from(container.querySelectorAll('.hero-text, .section-card'))
+    const fadeEls = Array.from(container.querySelectorAll('.hero-media, .cta'))
+
+    const allEls = [...upEls, ...fadeEls]
+
+    // Preparar clases iniciales
+    for (const el of allEls) {
+      el.classList.add('reveal')
+      el.classList.remove('reveal--visible')
+    }
+    for (const el of upEls) el.classList.add('reveal--up')
+    for (const el of fadeEls) el.classList.add('reveal--fade')
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (!entry.isIntersecting) continue
+          entry.target.classList.add('reveal--visible')
+          observer.unobserve(entry.target)
+        }
+      },
+      { threshold: 0.18 }
+    )
+
+    for (const el of allEls) observer.observe(el)
+
+    return () => observer.disconnect()
+  }, [route])
+
   const ctaTitle = useMemo(() => {
     if (route === 'marketing') return 'Landing Marketing de PetTalk'
     if (route === 'desarrollo') return 'Landing Desarrollo + Ciberseguridad de PetTalk'

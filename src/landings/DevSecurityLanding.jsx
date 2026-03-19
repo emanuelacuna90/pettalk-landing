@@ -1,4 +1,4 @@
-import appMockup from '../assets/app.png'
+import appMockup from '../assets/app.jpeg'
 
 function DevSecurityLanding() {
   return (
@@ -101,6 +101,37 @@ function DevSecurityLanding() {
             </li>
             <li>
               <strong>Actualizaciones de seguridad:</strong> parches regulares para corregir vulnerabilidades y mantener la confiabilidad del sistema.
+            </li>
+          </ul>
+        </article>
+
+        <article className="section-card">
+          <p className="section-label">Accesibilidad &amp; UX/UI</p>
+          <h2 className="section-title">
+            <span className="icon">UX</span>
+            Experiencia fácil para el usuario
+          </h2>
+          <p className="section-copy">
+            La app es simple de usar en el día a día: muestra una interfaz clara y accesible para distintas personas y dispositivos.
+          </p>
+          <ul className="section-list">
+            <li>
+              <strong>Interfaz clara:</strong> la app usa lenguaje simple, jerarquía visual y pasos guiados para que entender sea inmediato.
+            </li>
+            <li>
+              <strong>Legibilidad:</strong> ofrece buen contraste, tipografía legible y tamaños ajustables para mejorar la lectura.
+            </li>
+            <li>
+              <strong>Accesibilidad:</strong> permite navegar con teclado/controles, incluye etiquetas para lectores de pantalla y muestra foco visible.
+            </li>
+            <li>
+              <strong>Botones y toques:</strong> usa áreas táctiles grandes, espaciado adecuado y acciones consistentes para evitar errores.
+            </li>
+            <li>
+              <strong>Feedback inmediato:</strong> muestra estados de carga, confirmaciones y mensajes de error comprensibles.
+            </li>
+            <li>
+              <strong>Transparencia de datos:</strong> explica qué se guarda (historial/alertas) y ofrece opciones claras para gestionar preferencias.
             </li>
           </ul>
         </article>

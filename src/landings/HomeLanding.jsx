@@ -23,9 +23,6 @@ function HomeLanding() {
             <button className="btn-primary">Reservar demo</button>
             <button className="btn-ghost">Ver cómo funciona</button>
           </div>
-          <p className="hero-note">
-            Ideal para explicar marketing, IA, comercio internacional y ciberseguridad en clase.
-          </p>
         </div>
 
         <div className="hero-media">
@@ -33,13 +30,12 @@ function HomeLanding() {
             <div className="hero-product-image">
             <img src={imgCollar} alt="PetTalk" style={{ width: '100%', height: '100%' }}/>
             </div>
-            <span className="hero-badge">Kit educativo</span>
-            <h3>Kit Demo PetTalk para Clases</h3>
+            <h3>PetTalk</h3>
             <p className="hero-price">USD 99</p>
             <p className="hero-tagline">
-              Incluye collar de muestra, acceso a la app y material didáctico.
+              El collar inteligente que traduce los ladridos y maullidos de tus mascotas en tiempo real.
             </p>
-            <button className="btn-primary full-width">Agregar al carrito (demo)</button>
+            <button className="btn-primary full-width">Agregar al carrito</button>
           </div>
         </div>
       </section>
